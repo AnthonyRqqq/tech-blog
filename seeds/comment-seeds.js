@@ -3,19 +3,23 @@ const { Comment } = require('../models');
 const commentData = [
     {
         content: 'First comment hype!',
-        blogpost_id: 1
+        blogpost_id: 1,
+        user_id: 1
     },
     {
         content: 'First!',
-        blogpost_id: 1
+        blogpost_id: 1,
+        user_id: 2
     },
     {
         content: 'Actually you were second ^',
-        blogpost_id: 1
+        blogpost_id: 1,
+        user_id: 1
     },
     {
         content: 'First!',
-        blogpost_id: 2
+        blogpost_id: 2,
+        user_id: 2
     }
 ];
 

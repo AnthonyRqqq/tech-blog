@@ -7,7 +7,7 @@ const userData = [
     },
     {
         username: 'adminTwo',
-        passowrd: 'rootroot'
+        password: 'rootroot'
     }
 ];
 
