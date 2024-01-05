@@ -14,7 +14,7 @@ router.get('/', async (req, res) => {
             ],
         });
 
-        // Serializes data for sequelize
+        // Serializes data
         const blogposts = dbBlogpostData.map((blogpost) =>
             blogpost.get({ plain: true })
         );
@@ -30,7 +30,7 @@ router.get('/', async (req, res) => {
 });
 
 // Route for specific blogpost
-// Route looks like "url"/blogpost/:id
+// url: /blogpost/:id
 router.get('/blogpost/:id', async (req, res) => {
     try {
         // Finds blogpost by id primary key
